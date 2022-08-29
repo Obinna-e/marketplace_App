@@ -1,11 +1,13 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:marketplace_app/widget/artWorkCard.dart';
 import '../widget/customAppBar.dart';
 import '../widget/sectionOptions.dart';
+import '../widget/bottomNavBar.dart';
+import '../constants/header.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+  const MyHomePage({Key? key}) : super(key: key);
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -15,7 +17,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(),
+      extendBody: true,
+      appBar: const CustomAppBar(),
       body: Padding(
         padding: const EdgeInsets.only(left: 15.0),
         child: Column(
@@ -24,12 +27,8 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             const Padding(
               padding: EdgeInsets.only(top: 8.0, bottom: 10.0),
-              child: Text(
-                'Discover Now',
-                style: TextStyle(
-                  fontWeight: FontWeight.w600,
-                  fontSize: 20,
-                ),
+              child: Header(
+                title: 'Discover Now',
               ),
             ),
             Padding(
@@ -69,10 +68,27 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ],
               ),
-            )
+            ),
+            buildCard(),
+            const Padding(
+              padding: EdgeInsets.only(
+                top: 10.0,
+                bottom: 10.0,
+              ),
+              child: Header(title: 'Popular Seller'),
+            ),
           ],
         ),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(
+          Icons.add,
+          color: Color.fromARGB(255, 179, 209, 234),
+        ),
+      ),
+      bottomNavigationBar: BottomNavBar(context),
     );
   }
 }
