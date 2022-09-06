@@ -2,39 +2,39 @@
 {
     "NFTs":[
       {
-        "artist":"Lady with a red umbrella",
-        "heading": "",
+        "artist":"GPT-3",
+        "heading": "An armchair in the shape of an avocado",
         "subheading": "",
-        "price": "",
-        "image-url":"https://i.imgur.com/pwpWaWu.jpg"
+        "price": "50 ETH",
+        "image-url":"https://cdn.openai.com/labs/images/An%20armchair%20in%20the%20shape%20of%20an%20avocado.webp?v=1"
       },
       {
-        "artist":"Lady with a red umbrella",
-        "heading": "",
+        "artist":"Dall-E",
+        "heading": "3D render of a cute tropical fish in an aquarium on a dark blue background, digital art",
         "subheading": "",
-        "price": "",
-        "image-url":"https://i.imgur.com/pwpWaWu.jpg"
+        "price": "2 ETH",
+        "image-url":"https://cdn.openai.com/labs/images/3D%20render%20of%20a%20cute%20tropical%20fish%20in%20an%20aquarium%20on%20a%20dark%20blue%20background,%20digital%20art.webp?v=1"
       },
       {
-        "artist":"Lady with a red umbrella",
-        "heading": "",
+        "artist":"Dall-E",
+        "heading": "A sea otter with a pearl earring by Johannes Vermeer",
         "subheading": "",
-        "price": "",
-        "image-url":"https://i.imgur.com/pwpWaWu.jpg"
+        "price": "1 ETH",
+        "image-url":"https://cdn.openai.com/labs/images/%22A%20sea%20otter%20with%20a%20pearl%20earring%22%20by%20Johannes%20Vermeer.webp?v=1"
       },
       {
-        "artist":"Lady with a red umbrella",
-        "heading": "",
-        "subheading": "",
-        "price": "",
-        "image-url":"https://i.imgur.com/pwpWaWu.jpg"
+        "artist":"THY LAW",
+        "heading": "A Shiba Inu dog wearing a beret and black turtleneck",
+        "subheading": "LE DOGE",
+        "price": "50 ETH",
+        "image-url":"https://cdn.openai.com/labs/images/A%20Shiba%20Inu%20dog%20wearing%20a%20beret%20and%20black%20turtleneck.webp?v=1"
       },
       {
-        "artist":"Lady with a red umbrella",
-        "heading": "",
+        "artist":"Michael DINGY",
+        "heading": "A photo of Michelangelo's sculpture of David wearing headphones djing",
         "subheading": "",
-        "price": "",
-        "image-url":"https://i.imgur.com/pwpWaWu.jpg"
+        "price": "2 ETH",
+        "image-url":"https://cdn.openai.com/labs/images/A%20photo%20of%20Michelangelo's%20sculpture%20of%20David%20wearing%20headphones%20djing.webp?v=1"
       }
       
     ]
